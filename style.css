@@ -1,25 +1,34 @@
-header {
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+
+body {
+	margin: 0 0 50px;
+}
+
+#header {
 	text-align: right;
 	margin-top: 20px;
 	margin-bottom: 200px;
 
 }
 
-header a {
+a {
 	color: #222;
 	margin: 10px;
 	font-family: arial, sans-serif;
 	font-size: 12px;
 }
 
-header a:link,visited {
+a:link,visited {
 	text-decoration: none;
 }
 
-header a:hover, focus, active {
+a:hover, focus, active {
 	text-decoration: underline;
 }
-
 
 
 .sign-in {
@@ -41,4 +50,38 @@ header a:hover, focus, active {
 #main input {
 	width: 500px;
 	margin: 20px;
+}
+
+#footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+}
+
+/* 
+#footer {
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	height: 75px;
+	overflow: hidden;
+} 
+
+*/
+
+#footer-left {
+	padding-left: 20px;
+	float: left;
+		line-height: 50px;
+	vertical-align: center;
+}
+
+#footer-right {
+	padding-right: 20px;
+	float: right;
+	line-height: 50px;
+	vertical-align: center;
 }
