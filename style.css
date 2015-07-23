@@ -47,9 +47,23 @@ a:hover, focus, active {
 
 }
 
+/*
 #main input {
-	width: 500px;
+	width: 487px;
 	margin: 20px;
+}
+*/
+
+#search-bar {
+	
+	display: block;
+}
+
+#search-bar input {
+	width: 487px;
+	height: 2em;
+	line-height: 1.5em;
+	border: 1px solid #e4e4e4;
 }
 
 #main button {
