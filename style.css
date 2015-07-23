@@ -2,18 +2,33 @@ header {
 	text-align: right;
 	margin-top: 20px;
 	margin-bottom: 200px;
+
 }
 
 header a {
-	padding: 10px;
-	color: #000;
+	color: #222;
+	margin: 10px;
+	font-family: arial, sans-serif;
+	font-size: 12px;
 }
 
+header a:link,visited {
+	text-decoration: none;
+}
+
+header a:hover, focus, active {
+	text-decoration: underline;
+}
+
+
+
 .sign-in {
-	height: 20px;
-	width: 50px;
+	font-weight: bold;
+	padding: 8px 12px;
 	color: #fff;
-	bg color: #000;
+	background-color: #4285f4;
+	border: 4px solid #4285f4;
+	border-radius: 4px;
 }
 
 #main {
