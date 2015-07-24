@@ -55,8 +55,8 @@ a:hover, focus, active {
 */
 
 #search-bar {
-	
 	display: block;
+	margin-top: 10px;
 }
 
 #search-bar input {
@@ -64,6 +64,17 @@ a:hover, focus, active {
 	height: 2em;
 	line-height: 1.5em;
 	border: 1px solid #e4e4e4;
+	display: block;
+	padding-left: 10px;
+	font-size: 16px;
+
+	background: url(images/mic.gif) no-repeat scroll 475px 7px;
+}
+
+#search-mic {
+	display: block;
+	width: 14px;
+	height: 19px;
 }
 
 #main button {
